@@ -1,0 +1,75 @@
+{
+  "org": [],
+  "user_tbl": [],
+  "lead_list": [
+    {
+      "id": "8e94847d-e1c5-4ed2-baa1-e07e4b9a170d",
+      "org_id": "org1",
+      "name": "List A",
+      "created_at": 1759684190681
+    },
+    {
+      "id": "0b16c006-6ae3-4e66-8f0b-7fb07b9d32d4",
+      "org_id": "org2",
+      "name": "List B",
+      "created_at": 1759684493633
+    },
+    {
+      "id": "a008423d-35ef-4546-a512-de04abd1e28e",
+      "org_id": "org3",
+      "name": "List C",
+      "created_at": 1759685257098
+    }
+  ],
+  "lead": [
+    {
+      "id": "6606197a-2c2f-40b7-bf28-70f44a90bc62",
+      "org_id": "org1",
+      "list_id": "8e94847d-e1c5-4ed2-baa1-e07e4b9a170d",
+      "email": "a@example.com",
+      "name": "A",
+      "status": "NEW",
+      "metadata": null,
+      "created_at": 1759684190696
+    },
+    {
+      "id": "676425c0-301e-437f-9bd1-37b1448b2622",
+      "org_id": "org1",
+      "list_id": "8e94847d-e1c5-4ed2-baa1-e07e4b9a170d",
+      "email": "b@example.com",
+      "name": "B",
+      "status": "NEW",
+      "metadata": null,
+      "created_at": 1759684190696
+    }
+  ],
+  "oauth_conn": [
+    {
+      "id": "94aa574a-206a-46a0-b230-272931d82d26",
+      "org_id": "org1",
+      "provider": "gmail",
+      "token": "token-abc",
+      "created_at": 1759686070296
+    },
+    {
+      "id": "2a8d8d2c-4b16-40a1-9d78-ce160794ba45",
+      "org_id": "org1",
+      "provider": "gmail",
+      "token": "token-abc",
+      "created_at": 1759686223094
+    }
+  ],
+  "email_send": [
+    {
+      "id": "901f94b8-0e47-4526-b863-b8efdc586b78",
+      "lead_id": null,
+      "org_id": "org1",
+      "provider_message_id": "1ead7ede-f976-43df-a23c-df65e17fc129",
+      "provider": "gmail",
+      "to": "a@example.com",
+      "subject": "Hi",
+      "body": "Hello",
+      "created_at": 1759686223247
+    }
+  ]
+}
